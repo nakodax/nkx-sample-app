@@ -1,0 +1,74 @@
+# Runs the README's visitor flow on clean machines: locked without a key,
+# unlocked with the public trial key, and identical results from Python and Node.
+name: try-it
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1" # weekly: catches an expired or disabled trial key
+
+jobs:
+  try-it:
+    name: ${{ matrix.os }} / py ${{ matrix.python }} / node ${{ matrix.node }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: ubuntu-latest, python: "3.12", node: "22" }
+          - { os: macos-latest, python: "3.12", node: "22" }
+          - { os: windows-latest, python: "3.12", node: "22" }
+          - { os: ubuntu-latest, python: "3.10", node: "20" }
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v5
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Without a key the app is locked (exit 3)
+        if: hashFiles('.nkx/manifest.json') != ''
+        run: |
+          set +e
+          python python/run.py demo; py=$?
+          node node/run.js demo; js=$?
+          echo "python exit $py, node exit $js"
+          test "$py" = 3 && test "$js" = 3
+
+      - name: Install the nkx CLI
+        if: hashFiles('trial/license.key') != ''
+        run: |
+          v=0.1.2
+          case "${RUNNER_OS}-${RUNNER_ARCH}" in
+            Linux-X64) a="nkx-linux-amd64-$v" ;;     Linux-ARM64) a="nkx-linux-arm64-$v" ;;
+            macOS-X64) a="nkx-darwin-amd64-$v" ;;    macOS-ARM64) a="nkx-darwin-arm64-$v" ;;
+            Windows-X64) a="nkx-windows-amd64-$v.exe" ;; Windows-ARM64) a="nkx-windows-arm64-$v.exe" ;;
+            *) echo "no nkx build for ${RUNNER_OS}-${RUNNER_ARCH}"; exit 1 ;;
+          esac
+          d="$RUNNER_TEMP/nkx-bin"; mkdir -p "$d"; cd "$d"
+          base="https://github.com/nakodax/nkx-cli/releases/download/nkx-cli-v$v"
+          curl -fsSL -o "$a" "$base/$a"
+          curl -fsSL "$base/SHA256SUMS" | grep "  $a\$" > sums
+          if command -v sha256sum >/dev/null; then sha256sum -c sums; else shasum -a 256 -c sums; fi
+          case "$a" in *.exe) mv "$a" nkx.exe ;; *) mv "$a" nkx && chmod +x nkx ;; esac
+          echo "$d" >> "$GITHUB_PATH"
+
+      - name: Unlock with the public trial key
+        if: hashFiles('trial/license.key') != ''
+        run: |
+          pip install -r python/requirements.txt
+          nkx register --license-key-file trial/license.key --register-token-file trial/register.token
+          export NKX_REGISTER_TOKEN="$(cat trial/register.token)"
+          nkx-run python/run.py selftest
+          nkx-run python/run.py export --no-color | tee py.txt
+          npx -y -p @nakodax/runtime nkx-run node/run.js export --no-color | tee node.txt
+          diff --strip-trailing-cr py.txt node.txt
+          grep -q "65DE-0326-A82D-36CD" py.txt
+          echo "Unlocked on a clean machine; Python and Node agree."
