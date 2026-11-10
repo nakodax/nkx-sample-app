@@ -1,0 +1,6 @@
+[project]
+name = "ledgerlens-sample"
+version = "1.4.0"
+description = "LedgerLens sample app, protected with NakodaX Source Protection (Python edition)"
+requires-python = ">=3.10"
+dependencies = ["nkx-runtime>=2.2.1"]

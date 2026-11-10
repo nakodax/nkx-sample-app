@@ -1,0 +1,21 @@
+NakodaX Sample App - Evaluation Licence
+
+Copyright (c) 2026 Nakodax. All rights reserved.
+
+This repository demonstrates NakodaX Source Protection. The LedgerLens sample
+application it contains is distributed encrypted. The launcher scripts, the
+documentation and the trial key are readable.
+
+Anyone may, using the trial key in this repository or a key issued by Nakodax:
+  - clone, store and run this repository on their own machines;
+  - run, inspect the output of, and evaluate the sample application.
+
+You may not, without a written agreement with Nakodax:
+  - copy, modify, redistribute or build derivative works from the decrypted
+    sample application;
+  - use the contents to train or evaluate machine-learning systems;
+  - remove, bypass or tamper with the licence checks or the encryption.
+
+Nakodax may disable the trial key at any time.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
