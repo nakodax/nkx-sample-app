@@ -1,0 +1,287 @@
+{
+  "version": 3,
+  "slot_prefix": "",
+  "kdf": {
+    "salt": "GrVfjIM38yr8+PVFjaNEvw==",
+    "n": 131072,
+    "r": 8,
+    "p": 1
+  },
+  "files": {
+    "node/ledgerlens/anomaly.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "BWoS4/eTx7A25G89FW/mb6V7pkGIWPgGf6n71iFsNeBtLZNPahfsZNaPTSoSt1ENkprRR0Sym2T7Dgx/",
+      "sha256": "7a6e5eb64e48199cf9d8359f36bc25ed5321b62932cc743f8787884c0eb4a027",
+      "enc_sha256": "5c12d33a79e2e7ea94c35090ac4d11aae46624302c6d5dc06c068371a7328851",
+      "module": "ledgerlens.anomaly.js",
+      "wrapped_mock_dek": "oseGesGzK1d71KArOeZ/ayAdIfxIGSjdxfMSbNa8Fh03Zbu/5NU/BwjvccjIvOHWROu44yeLSoMFqwI7",
+      "mock": "node/ledgerlens/anomaly.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/canon.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "TiN9ehtFdTebQv1uIy8+jG6bgMNhQFl/EkJXhG617f2WLETyvKbaAnAlbwomRumPKUB8u5MGijtm0TxM",
+      "sha256": "860ac624da4b10e44f31ad34bc9a894f759d9c8942f22cf07722335d07c1482c",
+      "enc_sha256": "1ed905a09891f365ef39f7d2f29e539afdf7691fb0e20ff88b72858b62df8808",
+      "module": "ledgerlens.canon.js",
+      "wrapped_mock_dek": "jzAwWYRVFLWVEmMrDEVtcKamCokGA48CvT01StF3tOx+wSLpxZoaOSQ3Gjb8JVnGi+DXvOgA1c00x9Qy",
+      "mock": "node/ledgerlens/canon.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/catalog.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "GMnLXKAsS2ApyvGtLzMXWstN4u9ZPkYLZw0GDqk1c9rRaL8nGgNClcSQBnvZf95YWhj30+qGv7DE7V1u",
+      "sha256": "f7c7156a04e685c531f521db1e9741e1e3a27c8eb59df76a6d7ed86612e1a3d0",
+      "enc_sha256": "4f7748ebb73280b22c96e6adb86abef215b6e5202902bd9ef44340b375605126",
+      "module": "ledgerlens.catalog.js",
+      "wrapped_mock_dek": "HCEHxlhF+zCDWZ5disL1gBJT6xZe91jEZtNmyljv0kSpXk7i3ltlT45l+TeYAxpDwuDeZV36YA7UYWbn",
+      "mock": "node/ledgerlens/catalog.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/cli.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "KixjvUE0M7mfjxNNTEb0n/WJoE6wWNOf8tHGtbqepTtGOkKuGdz6ST/Tjl7/2xvRWeyFKKw2bgnYb3gy",
+      "sha256": "8c67ea1c265be421df60bf5a3e1d78777303920ecaab885847ad88965f1ff554",
+      "enc_sha256": "acdadcf809f65141f7825c2ebe001a66b1b5dfede8f37bfba931b889e005d9db",
+      "module": "ledgerlens.cli.js",
+      "wrapped_mock_dek": "7/PfPPtcXH5deV/crtLKU7ryJpm3KBvqE7/dELzIJqAjiimE15wg6ikhs0/hPRH+f4ADmfqFcTU6LHoi",
+      "mock": "node/ledgerlens/cli.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/dataset.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "OoDU52spKdyY0wbmtN34Hr+5BY9m3NKEd8ozjsbSu1G4mj5c87tiN/XXUj8Cf9Efiz+k3irp6xEB4QX5",
+      "sha256": "e1fda2cfc1b7f0fb2960c4a7c6497d95389a0b736358620671d17fb371df2c6c",
+      "enc_sha256": "336d82576d77270bde3b5b2f07214b1b64f1efdb1042e3b34e0757c6fad4a351",
+      "module": "ledgerlens.dataset.js",
+      "wrapped_mock_dek": "3QRMYVxKMM8YwQSQ4uPwpcTd8e7qCqmnsO14+WWmutX2UAxrJgDCd2G7mgt2VgrPZlpn4xEgC6yU4tya",
+      "mock": "node/ledgerlens/dataset.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/dates.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zEVpdp1Cr/5fw4C1EwaDkuTM9xJIb/+OfbhhtmPVJXFDJUaLyAZL91v4h8pZptxrnSBPQBLThGBe+0A1",
+      "sha256": "017f648aeb34229f72322a68a7dd7cab90bcf46d24ad2fc0006f7774cd26140e",
+      "enc_sha256": "3da30726a042efa1a5d569da55e338b56c9a2ed537533bd951ace6ac883989b2",
+      "module": "ledgerlens.dates.js",
+      "wrapped_mock_dek": "wFvLqYCu5EE2WhDdSNHAFTlUZ6hbKq4D6hRRKUBVwPtQN80lxcpWjwzRe9W46XT0T0FuXErRixIivXHN",
+      "mock": "node/ledgerlens/dates.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/fmt.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "XRUu54Sp+Ju17x6y+PKQxVStguweWKv10qZCa/2laYt+SAAvuztzCAkcdFpKaJ2Gs3PNE+BlI53eC7Ol",
+      "sha256": "17f9df813157945a7f251bceca9c3e3cdf4e084c816c5161a132160e3efd6a55",
+      "enc_sha256": "873b1d4291203d26d8aefe3d312063b092c5edabeff452399f0134b3cfabfd66",
+      "module": "ledgerlens.fmt.js",
+      "wrapped_mock_dek": "YyA+JB562s0C/SXdXsIuEnZIzTD2xAXSQb8463lPVZ/z88TfC/ko/xQTksxJKgasF7hCrB/JdCVy5QIZ",
+      "mock": "node/ledgerlens/fmt.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/forecast.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "zQuuKQD1s4avCnsdjs3rCqIEziu03o9yzJ5cCLelbLgQAsyJEispKW3xDFOd96A9rCMYLcmMefi92qTd",
+      "sha256": "71c7cac8528155a06073352f06584d4f8ff11dc1e001dba30d4d867e96ea8de7",
+      "enc_sha256": "79307a77ba187f60c78e233d45c4a31d4e6edc2680e651024958c88c7611e258",
+      "module": "ledgerlens.forecast.js",
+      "wrapped_mock_dek": "5Ohx/eoQtrjNbhcxVlNQoKHPQqxrTqTDXBMd7DK1DlvDnuMC4YNCBU6lqhzsKGQQIYMThbAyaRiFP2JC",
+      "mock": "node/ledgerlens/forecast.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/index.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "Eu/np01bKrt2zOl4rLFPupjqp2agc20K6X/XHa9zLsivrAIS4o25vCcyetbIt5UrpqacOGugQrEz0YCE",
+      "sha256": "7cf9944eb5a56646169e6ca3c5385b21176742069274161b4e9122834a628f19",
+      "enc_sha256": "f80724679bf28b0ac03a5427f8d60633e63382758f91c08ec9341799bac586b8",
+      "module": "ledgerlens.index.js",
+      "wrapped_mock_dek": "JrXFTq0hLYJs3oqq+dp2ZNZHqsp1gsI/NT3rGaKbd06xlcjFEziMgVuG8SdiRWvoagDY092PNz7sr7OK",
+      "mock": "node/ledgerlens/index.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/optimizer.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "TD7nhyVcFW8uWZoVcJz2sjAQL0hYaORcZ+UfjnTZ/R3ob4faUVJjjx7ytgOJTqylLUFGNoYn3ufxUNE6",
+      "sha256": "dfb03fe40a97f3a5b551290adc0293f0fe37026ff2a6c0b0ba7741c8484488e1",
+      "enc_sha256": "b0e7c237ecce35654f3e40b4c7a578b80b1abe05ab8494b080f3ced9ab30e541",
+      "module": "ledgerlens.optimizer.js",
+      "wrapped_mock_dek": "uQKyWRPsxUjk9vYH2fbuIR9QGBI0pJ5CorLkI2UZu0d6ZoU69ruOBQCe7xfcbxxbGOr3nDcMaHpPvEcm",
+      "mock": "node/ledgerlens/optimizer.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/pipeline.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "HEQciPt1dOc5r99A9aVkPYoXZ69EXFs8GKhq/InqQOneBI6o7bHNOWx274oVSm2A5rjYQnj1WztwgLeD",
+      "sha256": "312606fef14436f191ebad5436a3fe011f6b373a48298dbff5165af602a7000d",
+      "enc_sha256": "f6556ebc3fe125d4c20acd2cea2841a6d8ad643b9dfdc0aff1f7e620ad8c3cf9",
+      "module": "ledgerlens.pipeline.js",
+      "wrapped_mock_dek": "/Tt4tVHq6mXsjVWboNCkQQ4lOEnnrIMuywugwn0uukvJJsWz9LfcK/aotSRQAplor1bCxAEppcPxnl24",
+      "mock": "node/ledgerlens/pipeline.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/pricing.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "qKreJBBx6QL6ROm+O2PyCNlKF7AZFqsJL2ypSpamARBow1zipRRlqEuCo7nreVXtpeHf3rBrEV546IFD",
+      "sha256": "a8729300eb422b4ed7b7cbecb39dfc49f6b5509aaaa421e0d86f1660263b729a",
+      "enc_sha256": "dbe566bc8d3086ee18e2021ae9ffe26d73fd3834ca8125a4b60fc45191088e4b",
+      "module": "ledgerlens.pricing.js",
+      "wrapped_mock_dek": "Z7uQPJoEIDz7dB5HaNgwHxvUw914VC2qK7gxgSoPC5S0RE0Is0GgF7F9CoNhRpvK5t6LYHwDZKVF7ZpB",
+      "mock": "node/ledgerlens/pricing.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/rng.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "97YpBo0mtLl3tRyFrGQjlbgWnpNyqVdfvd/tSqz4cYSO0MFp8pTghFCmpwsfQeAPfLro8nBEPzANmF8b",
+      "sha256": "9cd7f2a5605f5ab03505984fc52001163a32abe46098df9ccd0611c20d403b62",
+      "enc_sha256": "205138a0c36f3c0b8531bd5e2de31174c968c374270b0421faba9ac28875b867",
+      "module": "ledgerlens.rng.js",
+      "wrapped_mock_dek": "ooQphVd8wM8dI5CFE5V0O6YXLyh0CZxhYJVA2ZV0mNashTR2Ag70oW7d0UWQwtKS7yBtEjmTKMj+r5rj",
+      "mock": "node/ledgerlens/rng.js.mock.js.nkxc"
+    },
+    "node/ledgerlens/segments.js": {
+      "lang": "javascript",
+      "load_strategy": "hook",
+      "wrapped_dek": "eKfiAKMnzpBuPOt+T6L8SZQsqdbQV8gukl4fHDm14sIqemsDLNXXqKxYik8czWfXjL1beUO1X9FmzLJB",
+      "sha256": "cbe96c7b61fb87d5991c3f091ebadcdd81c1f646910649f2e421b4d4902b10d9",
+      "enc_sha256": "5b42fe75245c3544d35d210d168a020abbb060d2f411c732f1d046e70c951919",
+      "module": "ledgerlens.segments.js",
+      "wrapped_mock_dek": "XwD3iZUPHkmC4uBBgouwQIVwxY8YLOnEh5gIzesFkrjwlHImsg2XxxupGXtJRNichtF8uTubaiwAS/js",
+      "mock": "node/ledgerlens/segments.js.mock.js.nkxc"
+    },
+    "python/ledgerlens/anomaly.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "+ULDyZHf97I1orgf1SdqdUrbfzg3qzDabphUIOGKhkjRCVUw8sXOLIpyH7P6Aiy4ZxKdCGKJA1NyuIGt",
+      "sha256": "588b32fb6e1446c0b1b80b8e41197a0f26d7c1c3d53cbae92a32dd4568228098",
+      "enc_sha256": "36eb06fc382d77ba451cd05fb8ef956cdf2208d1d3f3e02a5903b906933d9b7b",
+      "module": "ledgerlens.anomaly",
+      "wrapped_mock_dek": "SJTQptDrzPuuyjbFQojNLUW+aDQBOvnASEhw27zC6NFk2aFoZtnzqefiGc5Mb/StZYqrtpeUNgSaPLal",
+      "mock": "python/ledgerlens/anomaly.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/canon.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "ELcYl0HMImOBaOIPPFrautAlrTQPrIk5IHICFdZuW11KYSrbtsYVZ/f3vp9KooAhZCtIp2dPWFi4g8Bc",
+      "sha256": "39bf833eed0fb64bb4b415a798305c2214e487f8be52fff45fbda8b314f39bd9",
+      "enc_sha256": "34d4b77871b18c3423214627c62ff5bbc27aeda7c2ced3d25ac7b77cb02bb8e7",
+      "module": "ledgerlens.canon",
+      "wrapped_mock_dek": "64akCWVNI+XsChoXMqibJDJIRQRG/FVQR+CigTkK12BTTsq4EE0PPYYNVWQEiV3s89zEwIqjUpHNe5gB",
+      "mock": "python/ledgerlens/canon.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/catalog.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "xrEzOE9xtxxIpVfUFfRkBOMAkSScgiYhzsdKxyHO94oS+TlbmkyNP6tTU2T78BSxHIYcRA3zHONnbgNg",
+      "sha256": "a2483232305755d83bc275757f696d8101c21632157c833ae18352ef23b2940a",
+      "enc_sha256": "c6de3aa8cf0b3061c88559476e2635482a82c38e72f4fcdecc4b5db542e70dfd",
+      "module": "ledgerlens.catalog",
+      "wrapped_mock_dek": "kcZfz8YEStci0N82Oppl89P/JjAKCtgrr9PWovz5jQLQtk9JcLli0C+lVEx5QPPsO2h1xc2WzxXpmicp",
+      "mock": "python/ledgerlens/catalog.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/cli.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "0wCOzT/LHuzy1yJOFfcYDfsig3yDM/50D1Cj8TxwtuBEL+yd8p0vZLf105vvmU+MBdCgPhguhIC0TsdS",
+      "sha256": "2d386afd1d6872bdd17cdd4de64a73abcc76b02aee7d764f5b2945af0c8cdff5",
+      "enc_sha256": "7644a60529cf3b86c1b6995c822a286f4c0cd017b5d517db812ab68ae1e30a14",
+      "module": "ledgerlens.cli",
+      "wrapped_mock_dek": "z/RUB9MYwmBmH0RAKTU/epA/ed5RbjxntFVdBITpXSlL+50NEedWbBkXFw8VG6AapWKrDnqhlqdphIJa",
+      "mock": "python/ledgerlens/cli.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/dataset.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "M70nRBRsGGk/aibZhsPpWn9NAPrsxNdvd3prssPVzet32HFxNcMnJibWi94ug54xvabys6EcWkdA4cg/",
+      "sha256": "d3b59ce0f87379d57ce80c1caf2e73243a84037aeee8da01306701d7d18fe672",
+      "enc_sha256": "11cebe2563b140a6fd5667dd34464667f06345dfc34b527e34220e022c47698f",
+      "module": "ledgerlens.dataset",
+      "wrapped_mock_dek": "IgyiqKXzEb47mvU1U94cW1UzQIZgFZNUpxI2vTj4tlYwv8xHozdLddIfVEz9pGFFWtH075qA5uoFlujF",
+      "mock": "python/ledgerlens/dataset.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/dates.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "vfZFoC/xRsXQrZMkCEZQSj13WXe9WtECFZSOX8zcz5iqYKSH2GExalSYtBC8Xc4UNlxAogrXVm0roZsr",
+      "sha256": "db0410e71382f7f4ca0de52a82ac2c24aae2ae78eb6e5fdf80245c04ccd19ed2",
+      "enc_sha256": "7b34ce9cbf0ca2d2863b27efefc5d11c3b3559b519922b01c6690bb7557d6b8c",
+      "module": "ledgerlens.dates",
+      "wrapped_mock_dek": "2vNHGOA0k71l4HgKtq58H+JyYUChNCvzC/k8fdZ8QceE4D9I+x7eLnavsOjWs3w/mZpfJrEWJ0qQbej+",
+      "mock": "python/ledgerlens/dates.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/fmt.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "Xn66B82Wm+o2Xj0b8R2i3E+JvTRSW7pI88w/ZttONJ8Owz76kA3XlMERCiLxQoLhk1Xf04A57tj0/odg",
+      "sha256": "8daa309822f3025d2f9a65c110a4efb9d57b7f5e776f34b9d2d5c0adc8bc5c26",
+      "enc_sha256": "9aca6aeb42538cc5f4acefdc8ca59e8837fdf35ca2ab7a3072f1d7fa57e6cc75",
+      "module": "ledgerlens.fmt",
+      "wrapped_mock_dek": "OakPEkFACgxFlW9aPE+KL80p/Qh1IgSNBdjljsCKSZCoZGFeYaxu9Upf/+odMJLHCHIRoI+/zNdl1/zp",
+      "mock": "python/ledgerlens/fmt.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/forecast.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "7LJkH+DTpZ3TzF3ARVbzRROj7iv/Tce4Z6oW4GEQGG2fxaAZ0efI3Mz/Hvl/cA0LShhrPsv/plo2HhLs",
+      "sha256": "14b0d93eec91c2060d96008f26417c3e28979b9aad35b780a3aea51b2e8fc942",
+      "enc_sha256": "09cd09cfe404b77a9052e887e2a97232d4445b404c7897e974bf0cd086d79ade",
+      "module": "ledgerlens.forecast",
+      "wrapped_mock_dek": "VlMxUnNdzpAAgGmQRqFzW86h7VGHISc6DniabGCyxyfENtRGxP46sbUp4k3FvK4oRfbrVm9p37EY+Xrp",
+      "mock": "python/ledgerlens/forecast.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/optimizer.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "KJT0Xr6KcYZP0ZkvLORmfpY9em5kYHu+2JNdpEIL67lQD9wiQfrM6RwO/VeR3dqIbNkZKMxyyV+cStBa",
+      "sha256": "b7cb7e60752a16f1b92047121fc59b79a95288d6be7a4670e1b906d989565061",
+      "enc_sha256": "7307873543613ad8106ce170acb48b2e97a17c3c8ad008c981ea2504fcdc2608",
+      "module": "ledgerlens.optimizer",
+      "wrapped_mock_dek": "NHex7AlXyCEJT2kX6zzZeA4FemA+WmHxEhzE9kN8zVIJm5QrpvMrxK9EiG+YSEPrWlzkmuoDAu4E9y/M",
+      "mock": "python/ledgerlens/optimizer.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/pipeline.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "QqZQAnE4y3wc8BmcofBgD+aS7vQSaZU7pzHDQiXZNJ3wFjribYkRP6rV9qyqkzFwwfD563CI5qsuUHmK",
+      "sha256": "b977b8f071f76ce3e0042c95d0a552ea04ba0678cd65e8eb5515819b655ef9af",
+      "enc_sha256": "859541b43c9ba2f6c5d2c5218fe5c2e31dbc5a7e013e6500b4bcd72db758ed9c",
+      "module": "ledgerlens.pipeline",
+      "wrapped_mock_dek": "Jk+RAayT5FZ8l8doG6eWD2ZQQJDh09b33dKswJoLn2wGIXSbvOCz+Ve17bwpr1hn1srKVnEFRgsKUUUy",
+      "mock": "python/ledgerlens/pipeline.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/pricing.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "KRAw83jfA6Sb3YojJkYxiZxeQsXRxjWn1K9+PlLR6YhKDp57AWVeWxtGF9SdbWemZA338PYsxtuwWhCg",
+      "sha256": "99c9753bdbc40be7ca52029355eba1b44bd92bd4d98f7ed82b03adf8ef0dcdb9",
+      "enc_sha256": "bd7c2e0e2d84a087fcb46c22ea68917c1a3a47b9dbd06f9fc0a975305fd143ae",
+      "module": "ledgerlens.pricing",
+      "wrapped_mock_dek": "5rCwreyn2Z4bnkhtv2A237Jssr4+GxSP+JH0PCyRs1t5v9DcMo7/YP88SIx9UzI5M8FCB2Bjz8VF2rBA",
+      "mock": "python/ledgerlens/pricing.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/rng.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "WrEaexsodsFDt4Xp70IHcmRgD4RXD0YqpPZa1I6hYunHV99PInX2H2DYzRHQ+btBrY1XxznfnAN+uT/O",
+      "sha256": "bd254550f3c416ffc8edc448f36d30a658dbff6b457da1117cd1526306b4f1fe",
+      "enc_sha256": "b14cb758405d2f89b758d9ee36b6830e642443b0ff1e33c39b092a747eb85972",
+      "module": "ledgerlens.rng",
+      "wrapped_mock_dek": "SgOjLZC+B5/UkcFBU92m5Xw0c9PwraMIDR9nFzKBDvQTL2EVu74a9QLjnPA14h4WB7HfUol8/wRH0++k",
+      "mock": "python/ledgerlens/rng.py.mock.py.nkxc"
+    },
+    "python/ledgerlens/segments.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "RF787wKWqAHGB/cdSwMohjMLc6NMrFUDfN2+0iCirbbjWNekbXLJkuS3JcBolfiuaEJrKuBZxLv0ADWl",
+      "sha256": "a4c91c1d2a73107624f6db9f5fabeedb6130fbf5409b0b32ced3ab8c7441d92c",
+      "enc_sha256": "8a63803fe7196f3742c42c549e2a7439748b3cf9bf43d552b20784af751c256a",
+      "module": "ledgerlens.segments",
+      "wrapped_mock_dek": "d+IRUMkJEgpHmsg6GFdZSkJqi2OvyJ7OfacqUFD20QTE0asUi47EsUqd7/KDcKlau+k4/L32ORc+Qd/E",
+      "mock": "python/ledgerlens/segments.py.mock.py.nkxc"
+    }
+  },
+  "context": {
+    "build_id": "67f86524-b34d-46bc-81cb-6a5e592fe40c",
+    "runtime_sources": []
+  },
+  "key_version": 1
+}

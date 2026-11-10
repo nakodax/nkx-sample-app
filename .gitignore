@@ -1,0 +1,12 @@
+# Written locally by `nkx register` / the NakodaX runtime. Never commit these.
+# (.nkx/manifest.json is part of the protected release and IS committed.)
+.nkx/license.key
+.nkx/runtime.token
+.nkx/config.json
+.nkx/instance_nonce
+
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+.env

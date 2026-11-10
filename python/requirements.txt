@@ -1,0 +1,2 @@
+# LedgerLens itself has no dependencies. The NakodaX runtime decrypts and runs it.
+nkx-runtime>=2.2.1
