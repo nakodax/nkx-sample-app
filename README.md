@@ -9,6 +9,8 @@
 
 # nkx-sample-app: run an encrypted app with NakodaX Source Protection
 
+**Our code is public. Our source isn't.**
+
 [![try-it](https://github.com/nakodax/nkx-sample-app/actions/workflows/try-it.yml/badge.svg)](https://github.com/nakodax/nkx-sample-app/actions/workflows/try-it.yml) ![Encryption: AES-256-GCM](https://img.shields.io/badge/encryption-AES--256--GCM-00B26D) ![Runtimes: Python and Node.js](https://img.shields.io/badge/runtimes-Python%20%7C%20Node.js-555) ![Trial key: included](https://img.shields.io/badge/trial%20key-included-00B26D) ![Licence: evaluation](https://img.shields.io/badge/licence-evaluation-555)
 
 **nkx-sample-app is a small application whose source code is encrypted with NakodaX Source Protection. A free trial key ships with this repository, so you can unlock it and run it on your own machine in about a minute.**
